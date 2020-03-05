@@ -19,6 +19,7 @@ extern signature VisSense__SIG_5;
 extern signature VisSense__SIG_6;
 extern signature VisSense__SIG_7;
 extern vision VisSense;
+extern limit LimitSwitchA;
 
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Text.

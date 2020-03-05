@@ -10,13 +10,14 @@
 // ---- START VEXCODE CONFIGURED DEVICES ----
 // Robot Configuration:
 // [Name]               [Type]        [Port(s)]
-// Controller1          controller
-// LeftDrive            motor         1
-// RightDrive           motor         2
-// RightLift            motor         3
-// Clamp                motor         4
-// LeftLift             motor         5
-// VisSense             vision        6
+// Controller1          controller                    
+// LeftDrive            motor         1               
+// RightDrive           motor         2               
+// RightLift            motor         3               
+// Clamp                motor         4               
+// LeftLift             motor         5               
+// VisSense             vision        6               
+// LimitSwitchA         limit         A               
 // ---- END VEXCODE CONFIGURED DEVICES ----
 
 #include "vex.h"
@@ -56,6 +57,7 @@ void autonomous(void) {
       }
     }
   }
+
 }
 
 void usercontrol(void) {}

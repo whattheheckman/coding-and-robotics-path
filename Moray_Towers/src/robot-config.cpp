@@ -20,6 +20,7 @@ signature VisSense__ORG = signature (2, 8837, 10281, 9559, -2133, -1607, -1870, 
 signature VisSense__GRN = signature (3, -8623, -5461, -7042, -3277, -1833, -2555, 3, 0);
 vision VisSense = vision (PORT6, 62, VisSense__PURPUR, VisSense__ORG, VisSense__GRN);
 /*vex-vision-config:end*/
+limit LimitSwitchA = limit(Brain.ThreeWirePort.A);
 
 // VEXcode generated functions
 // define variable for remote controller enable/disable
